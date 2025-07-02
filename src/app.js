@@ -63,7 +63,7 @@ function scrollToBottom() {
 function getAssistantResponse(userMessage) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("This is a simulated response. You said: " + userMessage);
+      resolve("가짜 지피티: " + userMessage);
     }, 1500);
   });
 }
